@@ -10,8 +10,13 @@ from bs4 import BeautifulSoup
 
 domain = 'http://cloud.oracleoaec.com'
 login_url = "{domain}{uri}".format(domain=domain, uri='/user/login')
+
+# 替换账号密码为你自己的
+# username = '123123123123'
+# password = '12312312323'
 username = ''
 password = ''
+
 login_par = {
     'name': username,
     'pass': password,
